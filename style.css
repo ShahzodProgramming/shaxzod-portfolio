@@ -3,6 +3,9 @@
   margin: 0;
   font-family: "Roboto";
 }
+a {
+  text-decoration: none;
+}
 body {
   background: #000b58;
 }
@@ -17,16 +20,35 @@ nav ul {
   gap: 20px;
   color: #fff4b7;
 }
+nav ul li a{
+    color: #fff4b7;
+}
 .intro {
-  margin-top: 100px;
+  width: 60%;
+  margin: 100px auto;
   padding: 10px 10px;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 .intro .content {
-  flex-shrink: 5;
+  text-align: center;
   padding: 10px 10px 10px 10px;
   border: #006a67 solid 2px;
+  transition: all ease 0.3s;
+}
+.intro .content:hover {
+  background: #003161;
+}
+.intro img {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  transition: 0.2s ease all;
+}
+.intro img:hover {
+  border-radius: 20%;
 }
