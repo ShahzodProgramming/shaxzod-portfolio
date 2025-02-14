@@ -1,18 +1,32 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
 }
-.wrapper{
-    background: #BDDDFC;
+body {
+  background: #000b58;
 }
-nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-nav ul{
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    color: #6A89A7;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: #fff4b7;
+}
+.intro {
+  margin-top: 100px;
+  padding: 10px 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.intro .content {
+  flex-shrink: 5;
+  padding: 10px 10px 10px 10px;
+  border: #006a67 solid 2px;
 }
